@@ -615,10 +615,13 @@ opacity:1;
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   gap:10px;
+ padding-left: 0px;
+ padding-right: 200px;
  
  }
  .footer-container ul{
   margin: 0 50px;
+  
 
  }
  .footer-container ul li {

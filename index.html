@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-Techcology</title>
+
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <!--Scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <!--jquery-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <nav class="nav-main">
+      <ul class="search">
+        <a href="#">
+          <i class="ai-search"></i>
+        </a>
+     </ul>
+      <ul class="menu-btn">
+       <p><i class="ai-three-line-horizontal"></i></p>
+        </ul>  
+    </nav>
+
+    <div class="container">
+      <aside class="sidebar ">
+      
+        <ul class="nav-menu show">
+          <li class="small-x">
+            <p ><i class="ai-x-small"></i></p>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-home-alt1"></i>
+              <p>Home</p>
+            </button>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-dashboard"></i>
+              <p>Dashboard</p>
+            </button>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-gear"></i>
+              <p>Settings</p>
+              <i class="ai-chevron-down-small"></i>
+            </button>
+            <div class="sub-menu">
+              <ul>
+                <li >
+                  <button type="button">Display</button>
+                </li>
+                <li>
+                  <button type="button">Appearance</button>
+                </li>
+                <li>
+                  <button type="button">Preferences</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-folder-add"></i>
+              <p>Create</p>
+              <i class="ai-chevron-down-small"></i>
+            </button>
+            <div class="sub-menu">
+              <ul>
+                <li>
+                  <button type="button">Article</button>
+                </li>
+                <li>
+                  <button type="button">Document</button>
+                </li>
+                <li>
+                  <button type="button">Video</button>
+                </li>
+                <li>
+                  <button type="button">Presentation</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-person"></i>
+              <p>Profile</p>
+              <i class="ai-chevron-down-small"></i>
+            </button>
+            <div class="sub-menu">
+              <ul>
+                <li>
+                  <button type="button">Avatar</button>
+                </li>
+                <li>
+                  <button type="button">Theme</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-bell"></i>
+              <p>Notifications</p>
+            </button>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-cart"></i>
+              <p>Products</p>
+            </button>
+          </li>
+          <li>
+            <button type="button" onclick="onClick(this)">
+              <i class="ai-lock-on"></i>
+              <p>Account</p>
+            </button>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="showcase">      
+      <h2>News Today</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+        asperiores, consequatur quia pariatur nobis mollitia, dolore
+        repudiandae eius exercitationem maxime aspernatur laudantium tempore.
+        Nobis, repudiandae inventore veritatis aperiam ratione doloribus?
+      </p>
+      <a class="btn" href="#"
+        >Read More <ion-icon name="play-forward-circle-outline"></ion-icon
+      ></a>
+      </div>
+
+      <!--News cards-->
+      <div class="news-cards">
+        <div>
+          <div class="envoltorio1">
+            <img src="img/news1.jpg" alt="news-1" id="img1"/>
+          </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+        <div>
+         <div class="envoltorio2">
+          <img src="img/news2.jpg" alt="news-2" id="img2"/>
+         </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+        <div>
+        <div class="envoltorio3">
+          <img src="img/news3.jpg" alt="news-3" id="img3" />
+        </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+        <div>
+        <div class="envoltorio4">
+          <img src="img/news4.jpg" alt="news-4" id="img4"/>
+        </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+      </div>
+      <!--cards-banner-One-->
+      <div class="cards-banner-one">
+        <div class="content">
+          <h2>lorem, ipsum dolor.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+            similique tempore magni iste obcaecati deserunt quae saepe libero.
+          </p>
+          <a href="#" class="btn"
+            >Lear More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+      </div>
+      <!--News cards 2-->
+      <div class="news-cards">
+        <div>
+         <div class="envoltorio5">
+          <img src="img/news1.jpg" alt="news-5" id="img5"/>
+         </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+        <div>
+        <div class="envoltorio6">
+          <img src="img/news2.jpg" alt="news-6" id="img6" />
+        </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+        <div>
+         <div class="envoltorio7">
+          <img src="img/news3.jpg" alt="news-7" id="img7"/>
+         </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+        <div>
+        <div class="envoltorio8">
+          <img src="img/news4.jpg" alt="news-8" id="img8"/>
+        </div>
+          <h3>Lorem ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem, quis autem culpa explicabo modi, mollitia.
+          </p>
+          <a href=""
+            >Learn More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+      </div>
+
+      <!--cards-banner-Two-->
+      <div class="cards-banner-two">
+        <div class="content">
+          <h2>lorem, ipsum dolor.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+            similique tempore magni iste obcaecati deserunt quae saepe libero.
+          </p>
+          <a href="#" class="btn"
+            >Lear More <ion-icon name="play-forward-circle-outline"></ion-icon
+          ></a>
+        </div>
+      </div>
+      <!--Social-->
+      <section class="social">
+        <p>Follow TechNews</p>
+        <div class="links">
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+      </section>
+    </div>
+    <!--footer links-->
+    <section class="footer-links">
+      <div class="footer-container">
+        <ul>
+          <li>
+            <a href=""><h3>Title one</h3></a>
+          </li>
+          <li><a href="">Blockchain</a></li>
+          <li><a href="">Javascript</a></li>
+          <li><a href="">Bitcoin</a></li>
+          <li><a href="">Java</a></li>
+          <li><a href="">Etherium</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""><h3>Title Two</h3></a>
+          </li>
+          <li><a href="">Blockchain</a></li>
+          <li><a href="">Javascript</a></li>
+          <li><a href="">Bitcoin</a></li>
+          <li><a href="">Java</a></li>
+          <li><a href="">Etherium</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""><h3>Title three</h3></a>
+          </li>
+          <li><a href="">Blockchain</a></li>
+          <li><a href="">Javascript</a></li>
+          <li><a href="">Bitcoin</a></li>
+          <li><a href="">Java</a></li>
+          <li><a href="">Etherium</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""><h3>Title Four</h3></a>
+          </li>
+          <li><a href="">Blockchain</a></li>
+          <li><a href="">Javascript</a></li>
+          <li><a href="">Bitcoin</a></li>
+          <li><a href="">Java</a></li>
+          <li><a href="">Etherium</a></li>
+        </ul>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <h3>Breaking News Copyright</h3>
+    </footer>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="menu.js"></script>
+  </body>
+</html>
